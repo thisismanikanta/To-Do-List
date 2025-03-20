@@ -1,0 +1,69 @@
+body{
+    background: linear-gradient(to right, #3276d4, #df44ca);
+     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: aliceblue;
+    height: 23rem;
+    max-height: 100rem;
+    width: 34rem;
+    border-radius: 35px;
+    text-align: center;
+    padding: 3rem;
+    min-width: 7rem;
+}
+.new-to-do{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 40rem;
+    min-width: 7rem;
+    border: 0.1rem solid rgb(106, 101, 101);
+    background-color:aliceblue ; 
+}
+.add{
+    display: flex;
+    position: relative;
+}
+#add-btn{
+    background-color: rgb(7, 32, 222);
+    font-size: 1rem;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 5rem;
+    min-width: 1rem;
+    padding: 0.5rem;
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.5rem;
+}
+ul{
+    overflow-y: scroll;
+    height: 10rem;
+    list-style: none;
+    
+    width: 32rem;
+}
+input[type="checkbox"]:checked {
+    accent-color: green;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+#del-btn{
+    font-size: 15px;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    height: 3rem;
+    width: 7rem;
+}
+#items-number{
+    font-size: 25px; 
+}
